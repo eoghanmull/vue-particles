@@ -92,7 +92,7 @@
     },
     mounted () {
       // import particle.js only on client-side
-      require('particles.js')
+      require('tsparticles')
       this.$nextTick(() => {
         this.initParticleJS(
           this.color,
@@ -241,7 +241,8 @@
               }
             }
           },
-          "retina_detect": true
+          "fps_limit": 20,
+          "retina_detect": false
         });
       }
 
