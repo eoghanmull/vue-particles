@@ -241,7 +241,7 @@
               }
             }
           },
-          "fps_limit": 20,
+          "fps_limit": 30,
           "retina_detect": false
         });
       }
